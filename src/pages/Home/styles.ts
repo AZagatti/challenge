@@ -6,16 +6,18 @@ export const Container = styled.div`
   justify-content: center;
   background-color: #f2f2f2;
   min-height: calc(100vh - 65px);
+  padding: 16px;
 
   > div {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 95%;
-    height: 90vh;
+    min-height: 95vh;
     background-color: #f9f9f9;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
+    padding: 24px;
 
     h1 {
       font-size: 64px;
@@ -29,7 +31,7 @@ export const Container = styled.div`
 `;
 
 export const Table = styled.table`
-  width: 95%;
+  width: 100%;
   border-collapse: separate;
   border-spacing: 0 0.5em;
 
